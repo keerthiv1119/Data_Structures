@@ -15,7 +15,7 @@ struct node *head = NULL;
 struct node *nn()
 {
 	struct node *ptr;
-	ptr = (struct node *)malloc(sizeof(struct node *));
+	ptr = (struct node *)malloc(sizeof(struct node));
 	printf("enter data:");
 	scanf("%d",&ptr->data);
 	ptr->next = NULL;
@@ -39,7 +39,7 @@ void insert_last()
 	struct node *ptr = nn();
 	if(head == NULL)
 	{
-		head == ptr;
+		head = ptr;
 	}
 	else
 	{
