@@ -211,6 +211,12 @@ void reverse()
 		current = next;
 	}
 	head = prev;
+	/*Recursion
+	  if(head != NULL)
+        {
+            reversePrint(head->next);
+            printf("%d\n",head->data);
+        }*/
 }
 int main()
 {
