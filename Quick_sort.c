@@ -49,6 +49,6 @@ int main()
 	Quick_Sort(array , 0 , n-1);
 	for(i=0;i<n;i++)
 	{
-		printf("%d\t",array[i]);
+		printf("Sorted array is : %d\t",array[i]);
 	}
 }
